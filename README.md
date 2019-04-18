@@ -1,4 +1,5 @@
 This is the readme file for the project-1 for the class [ECEN 5013]. The aim of the project was to create a makefile for compiling files for 3 platforms Beaglebone black, Freedom Freescale, Host machine.
+Also wrote a firmware to perform basic functions related to memory like memset memcpy etc also to convert big endian to little endian and ascii to integers and vice-versa 
 
 The Makefile can be executed in following way:
 
