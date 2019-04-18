@@ -1,3 +1,7 @@
+Wrote a firmware to perform basic functions related to memory like memset memcpy etc also to convert big endian to little endian and ascii to integers and vice-versa 
+
+Also wrote makefile to compile files for 3 platforms Beaglebone black, Freedom Freescale, Host machine.
+
 Commands for using Makefile
 
 #This is the default goal and will build for the host on which it's running
