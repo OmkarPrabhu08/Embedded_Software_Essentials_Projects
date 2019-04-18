@@ -1,0 +1,31 @@
+Commands for using Makefile
+
+#This is the default goal and will build for the host on which it's running
+make
+
+#This will compile and link files and create final binary called project1 in ./bin
+make build
+
+#This will compile all files and create object files in ./src
+make complie-all
+
+#This will build a library in ./lib and create final binary called project1 in ./bin
+make build-lib
+
+#This will create a preprocessed file in ./src. Change file.i for the name of the file you want to build for
+make src/file.i
+
+#This will create an assembly file in ./src. Change file.s for the name of the file you want to build for
+make src/file.s
+
+#This will create an object file in ./src. Change file.o for the name of the file you want to build for
+make src/file.o
+
+#Appending PLATFORM=bbb in the above commands will create files and binaries for beaglebone
+make PLATFORM=bbb build
+
+#Appending PLATFORM=frdm in the above commands will create files and binaries for freedom platform
+make PLATFORM=frdm build
+
+#This will clean the directory
+make clean
